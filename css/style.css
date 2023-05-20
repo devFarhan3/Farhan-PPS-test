@@ -471,6 +471,9 @@ font-family: "Roboto";
         padding: 38px 14px;
     }
 
+    body{
+        overflow-x: hidden !important;
+    }
     .laptop_Sec img {
         position: relative;
         right: 0px;
