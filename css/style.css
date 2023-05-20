@@ -1,0 +1,587 @@
+/*  PPS home Css  Farhan Aslam */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: Proxima Nova Font;
+    src: url(../fonts/Proxima\ Nova\ Font.otf);
+}
+
+* {
+    font-family: Proxima Nova Font;
+}
+
+@font-face {
+    font-family:ghostclan;
+    src: url(../fonts/ghostclan.ttf);
+}
+
+/* * {
+    font-family:ghostclan;
+} */
+
+.navbar-nav li {
+    font-size: 15px;
+    font-family: Proxima Nova Font;
+    font-weight: normal;
+    color: #dc0a09;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #dc0a09;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #817C7C;
+}
+
+.buttons_sec .verify_btn {
+    background: #E9651B;
+    border-radius: 20px 0px 0px 20px;
+    padding: 7px 15px;
+    border: 1px solid #E9651B;
+    font-size: 15px;
+    font-family: Proxima Nova Font;
+    text-transform: uppercase;
+}
+
+.buttons_sec .verify_btn2 {
+    background: #138FB3;
+    border-radius: 0px 20px 20px 0px;
+    padding: 7px 15px;
+    border: 1px solid #138FB3;
+    font-size: 15px;
+    font-family: Proxima Nova Font;
+    text-transform: uppercase;
+}
+
+.verify_btn img {
+    width: 20px;
+
+}
+
+
+.verify_btn2 img {
+    width: 20px;
+
+}
+
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.pp {
+    /* padding: 50px; */
+    background-image: url(../img/bg-cover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcm {
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.pp h2 {
+    font-size: 38px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.ptxt {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pp button {
+    border-radius: 27px;
+    filter: drop-shadow(0.349px 9.994px 12px rgba(0, 0, 0, 0.22));
+    background-color: #e96920;
+    border: 1px solid #e96920;
+    padding: 8px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Proxima Nova Font;
+}
+
+.circle_sec{
+    opacity: 0.859;
+    border-radius: 393px;
+    background-color: #0d7fa0;
+    padding: 100px;
+}
+
+
+
+.laptop_Sec img{
+    position: relative;
+    right: 80px;
+    top: 50px;
+
+}
+
+.who_we{
+    background-color: #F4F6F8;
+    padding: 50px;
+}
+
+
+.who_we h2{
+    font-size: 32px;
+line-height: 46px;
+text-transform: uppercase;
+color: #e96920;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+}
+
+
+.bg_who {
+    background-image: url(../img/bg-people.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    border-radius: 30px;
+    filter: drop-shadow(0.419px 11.993px 11.5px rgba(0,0,0,0.07));
+    background-color: #ffffff;}
+
+.bg_who P{
+    font-size: 20px;
+line-height: 32px;
+/* color: #e96920; */
+font-weight: 700;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.our_sol{
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.our_sol > h2 {
+    font-size: 32px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #e96920;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.s_bg {
+    border-radius: 10px;
+    background-color: #f6f8fa;
+    padding: 10px;
+}
+
+.s_bg p {
+    font-size: 18px;
+color: #0c374f;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+text-align: center;
+text-transform: none;
+}
+.s_bg img {
+    position: relative;
+    bottom: 30px;
+}
+
+.sign_up {
+   /* background-color:  #E96519; */
+   padding: 50px;
+   border-radius: 20px;
+}
+
+.sign_up p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+.sign_up button{
+    border-radius: 15px;
+background-color: #ffffff;
+border: 1px solid #dedede;
+color:  #E96519;
+}
+
+.sign_up >.container
+{
+    background-color: #E96519;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* .business-Sec {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.business-Sec button {
+    color: #E96519;
+    border-radius: 15px;
+background-color: #ffffff;
+border: 1px solid #dedede;
+}
+
+.business-Sec img {
+    width: 20px;
+}
+
+.cs_sec {
+    background-image: url(../img/cs.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.badge_link {
+    background-color: #F4F6F8;
+    padding: 50px;
+}
+.badge_link h2 {
+    font-size: 32px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #e96920;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.badge_link p{
+    font-size: 18px;
+color: #333333;
+font-weight: 400;
+font-family: "Roboto";
+}
+
+.box_shadow {
+    border-radius: 20px;
+filter: drop-shadow(0px 16px 11.5px rgba(1,15,21,0.07));
+background-color: #ffffff;
+padding: 15px;
+}
+
+.check_img img{
+    position: relative;
+    top: 16px;
+    z-index: 999;
+    right: 16px;
+}
+
+.demo_btn button {
+    border-radius: 27px;
+    filter: drop-shadow(0.349px 9.994px 12px rgba(0, 0, 0, 0.22));
+    background-color: #e96920;
+    border: 1px solid #e96920;
+    padding: 12px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Proxima Nova Font;
+}
+.fastest_backgournd {
+    padding: 50px 0px;
+    background-color: #F5F6F6;
+    text-align: center;
+}
+.fastest_backgournd h3{
+    font-size: 93px;
+letter-spacing: -1px;
+line-height: 63px;
+text-transform: uppercase;
+color: #0c374f;
+font-family:ghostclan;
+}
+
+.fastest_backgournd p.back_grnd{
+    font-size: 18px;
+letter-spacing: 1px;
+line-height: 24px;
+text-transform: uppercase;
+color: #e96920;
+font-weight: 800;
+font-family: 'Inter', sans-serif;
+}
+
+.circle_tick h2{
+    font-size: 48px;
+line-height: 46px;
+text-transform: uppercase;
+color: #0c374f;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+}
+
+.border_box img{
+    border-radius: 20px;
+    filter: drop-shadow(0px 16px 11.5px rgba(0,174,255,0.18));
+    background-color: #f7fbff;
+    border: 2px solid rgba(0,162,260,0.18);
+    padding: 12px;
+    width: 60px;
+}
+
+.border_box h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0c374f;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.mission p{
+    font-size: 18px;
+color: #333333;
+font-weight: 400;
+font-family: "Roboto";
+}
+
+/* slider css */
+
+/* ends */
+
+/* footer css */
+
+footer
+{
+    background-color: #d5dbe0;
+    padding: 50px 10px;
+}
+footer p{
+    font-size: 18px;
+text-transform: uppercase;
+color: #6f7478;
+font-weight: bold;
+font-family: Proxima Nova Font;
+}
+
+footer ul li a {
+    font-size: 18px;
+text-transform: uppercase;
+color: #6f7478;
+font-weight: bold;
+font-family: Proxima Nova Font;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+.footr_text h5{
+    font-size: 30px;
+text-transform: uppercase;
+color: #6f7478;
+font-weight: bold;
+font-family: Proxima Nova Font;}
+
+.footr_text img
+{
+text-align: end;
+}
+
+.bg-box
+{
+    border-radius: 20px;
+    filter: drop-shadow(0px 16px 11.5px rgba(1,15,21,0.07));
+    background-color: #F5F6F6;
+    padding: 15px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100px !important;
+    border: 1px solid #e9651a;
+    border-radius: 10px;
+}
+
+.bg-box h5{
+    font-size: 24px;
+
+    line-height: 20px;
+text-transform: uppercase;
+color: #0c374f;
+font-weight: 700;
+font-family: "Inter";
+}
+
+.bg-box h6{
+    font-size: 14px;
+/* line-height: 46px; */
+text-transform: uppercase;
+color: #e9651a;
+font-weight: 700;
+font-family: "Inter";
+}
+
+.bg-box p{
+    font-size: 18px;
+line-height: 30px;
+color: #333333;
+font-weight: 300;
+font-family: "Roboto";
+}
+
+.slider_sec{
+    padding:  70px 10px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #e9651a;
+    font-size: 60px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1024px) {
+    .circle_sec {
+        opacity: 0.859;
+        border-radius: 0px;
+        background-color: #0d7fa0;
+        padding: 38px 14px;
+    }
+
+    .laptop_Sec img {
+        position: relative;
+        right: 0px;
+        top: 1px;
+    }
+    .cs_sec {
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 30vh;
+        margin-top: 0px;
+    }
+
+    .bg_who P {
+        font-size: 15px;
+        
+    }
+
+    footer {
+       
+        text-align: center;
+    }
+
+    .sign_up {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .fastest_backgournd h3 {
+        font-size: 60px;
+      
+    }
+
+    .fastest_backgournd p.back_grnd {
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #e96920;
+        font-weight: 800;
+        margin-left: 0px !important;
+        font-family: 'Inter', sans-serif;
+    }
+    .circle_tick h2 {
+        font-size: 30px;
+    
+    }
+
+    .who_we {
+        padding: 30px;
+    }
+    .badge_link {
+        padding: 30px;
+    }
+  } 
+  
+
+  /* back to top css */
+
+  #button {
+    display: inline-block;
+    background-color: #e96920;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
